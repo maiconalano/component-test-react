@@ -2,7 +2,7 @@
 
 ## GitHub Actions
 
-[![Build and Tests](https://github.com/ugioni/component-tests-react/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/component-tests-react/actions/workflows/node.js.yml)
+[![Build and Tests](https://github.com/maiconalano/unit-test-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/maiconalano/unit-test-jest/actions/workflows/node.js.yml)
 
 # Getting Started
 
