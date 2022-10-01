@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validar FocusInput snapshot 1`] = `
+<div>
+  <input
+    aria-label="focus-input"
+    placeholder="Foco aqui!!!"
+    type="text"
+  />
+  <button>
+    Clique aqui para focar
+  </button>
+</div>
+`;
