@@ -1,0 +1,42 @@
+{
+  "name": "component-tests-react",
+  "version": "1.0.0",
+  "description": "Component testing with React Testing Library",
+  "private": true,
+  "author": "maiconalano",
+  "dependencies": {
+    "prismjs": "^1.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-ga": "^3.3.1",
+    "react-scripts": "5.0.1",
+    "rimraf": "^3.0.2",
+    "mkdirp": "^1.0.4"
+  },
+  "scripts": {
+    "clean": "rimraf ./coverage && mkdirp ./coverage",
+    "start": "react-scripts start",
+    "test": "react-scripts test --watchAll",
+    "ci": "npm run clean && react-scripts test --watchAll=false --coverage"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "jest-watch-typeahead": "^0.6.5",
+    "react-test-renderer": "^18.2.0"
+  }
+}
